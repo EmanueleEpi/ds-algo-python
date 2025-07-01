@@ -1,0 +1,4 @@
+# Python dev artifacts
+.venv/
+__pycache__/
+*.py[cod]
