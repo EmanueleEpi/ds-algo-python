@@ -1,7 +1,10 @@
+from dataclasses import dataclass
+
+
+@dataclass
 class Node:
-    def __init__(self, val: int):
-        self.val = val
-        self.next: Node | None = None
+    val: int
+    next: 'Node | None' = None
 
 
 class SinglyLinkedList:
