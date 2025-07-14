@@ -4,7 +4,7 @@ from dataclasses import dataclass
 @dataclass
 class Node:
     val: int
-    next: 'Node | None' = None
+    next: "Node | None" = None
 
 
 class SinglyLinkedList:
